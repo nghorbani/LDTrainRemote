@@ -4,7 +4,9 @@ An ESP32-based BLE remote controller for the LEGO Duplo Train. Uses a
 potentiometer for variable speed (forward / stop / reverse) and four buttons
 for horn, LED colour, water refill sound, and emergency stop.
 
-This is the codebase for the Lego Duplo Train controller project. The 3D-printed remote enclosure is available on:
+This project is an adaptation of the work by James Clarke, as showcased on Instructables: [Wooden Bluetooth Remote for Lego Duplo Train](https://www.instructables.com/Wooden-Bluetooth-Remote-for-Lego-Duplo-Train/).
+
+The 3D-printed remote enclosure is available on:
 
 - [MakerWorld](https://makerworld.com/en/models/462749-remote-compatible-with-brick-duplo-train-on-esp32?from=search#profileId-716511)
 - [Thingiverse](https://www.thingiverse.com/thing:6620027)
@@ -149,6 +151,10 @@ The firmware prints a status line every 500 ms:
 
 Use the `Min` and `Max` values to calibrate `POT_MIN` and `POT_MAX` as
 described above.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a detailed list of changes.
 
 ## License
 
