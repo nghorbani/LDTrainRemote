@@ -2,7 +2,7 @@
 
 All notable changes to this project (forked from [mav00/LDTrainRemote](https://github.com/mav00/LDTrainRemote)) are documented in this file.
 
-## [Unreleased]
+## [v1.0.0] - 2026-02-21
 - Refactored monolithic main.cpp into separate modules: config.h, pins.h, power.h/.cpp, train_control.h/.cpp, buttons.h/.cpp
 - Moved all tunable #define constants into include/config.h for single-file configuration
 - Moved pin assignments and hardware extern declarations into include/pins.h
