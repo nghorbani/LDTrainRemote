@@ -48,8 +48,10 @@ void handleButtons() {
     if (pbStop.update()) {
         if (pbStop.fell()) {
             resetActivityTimer();
+            if (!potBlocked) {
+                speedAtBlock = gSpeed;
+            }
             potBlocked = true;
-            speedAtBlock = gSpeed;
             gSpeed = 0;
             myHub.setBasicMotorSpeed(port, 0);
             delay(100);
