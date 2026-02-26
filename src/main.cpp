@@ -74,8 +74,7 @@ void loop() {
         myHub.connectHub();
         if (myHub.isConnected()) {
             Serial.println("We are now connected to the HUB");
-            potBlocked = true;
-            speedAtBlock = 0;
+            applyStopMode();
         } else {
             Serial.println("We have failed to connect to the HUB");
         }
